@@ -6,9 +6,9 @@ h1 {
 font-size: 35px;
 }
 p {
+background-color: Lavender;
 color: darkblue;
 font-size: 16px; 
-background-color: Lavender;
 }
 ol {list-style-type: upper-latin;
 }
