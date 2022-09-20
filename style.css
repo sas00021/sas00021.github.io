@@ -14,7 +14,7 @@ ol {list-style-type: upper-latin;
 }
 ul {list-style-type: square;
 }
-.div-element {
+div {
 height: 200px
 width: 200px
 border-style: dotted;
