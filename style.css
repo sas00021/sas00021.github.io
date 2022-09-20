@@ -1,17 +1,18 @@
 body {
-background-color= "Ivory"; color: "Gray"
+background-color= Ivory; 
+color: Gray;
 }
 h1 {
-font-size: 35px
+font-size: 35px;
 }
 p {
 font-size: 16px; 
-color= "DarkBlue"; 
-background-color: "Lavender"
+color= DarkBlue; 
+background-color: Lavender;
 }
 ol {
-ol type="a"
+ol type= a;
 }
 ul {
-ul type="square"
+ul type= square;
 }
