@@ -1,18 +1,16 @@
 body {
-background-color= Ivory; 
-color: Gray;
+color: gray;
+background-color: Ivory;
 }
 h1 {
 font-size: 35px;
 }
 p {
+color: darkblue;
 font-size: 16px; 
-color= DarkBlue; 
 background-color: Lavender;
 }
-ol {
-ol type= a;
+ol {list-style-type: "a";
 }
-ul {
-ul type= square;
+ul {list-style-type: square;
 }
