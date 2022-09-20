@@ -14,3 +14,9 @@ ol {list-style-type: upper-latin;
 }
 ul {list-style-type: square;
 }
+.profile-image {
+width: 200 px;
+height: 200 px;
+border-style: dotted;
+border-width: 2px;
+}
