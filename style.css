@@ -10,7 +10,7 @@ color: darkblue;
 font-size: 16px; 
 background-color: Lavender;
 }
-ol {list-style-type: "a";
+ol {list-style-type: upper-latin;
 }
 ul {list-style-type: square;
 }
