@@ -7,6 +7,8 @@ background-color: Grey;
 float: center;
 color: White;
 height: 100px;
+text-align: center;
+vertical-align: center;
 }
 aside {
 float: right;
