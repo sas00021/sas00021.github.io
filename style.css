@@ -18,6 +18,7 @@ float: right;
 }
 h1 {
 text-align: center;
+display:inline;
 font-size: 35px;
 border: 2px solid #000000;
 border-radius: 25px;
