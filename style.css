@@ -17,7 +17,7 @@ aside {
 float: right;
 }
 h1 {
-display:inline;
+text-align: center;
 font-size: 35px;
 border: 2px solid #000000;
 border-radius: 25px;
