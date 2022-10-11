@@ -5,6 +5,8 @@ color: black;
 header {
 background-color: Grey;
 float: center;
+color: White;
+height: 150px;
 }
 aside {
 float: right;
