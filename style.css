@@ -10,7 +10,6 @@ border-radius: 25px;
 margin: 0;
 padding: 10px 20px;
 }
-}
 p {
 background-color: Lavender;
 color: darkblue;
@@ -55,4 +54,7 @@ padding: 5px 5px;
 }
 .image2 {
   display: inline-block;
+}
+.box {
+vertical-aling: top;
 }
