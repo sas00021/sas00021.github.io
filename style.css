@@ -2,6 +2,9 @@ body {
 background-color: Ivory;
 color: black;
 }
+.aside {
+float: right;
+}
 h1 {
 display:inline;
 font-size: 35px;
