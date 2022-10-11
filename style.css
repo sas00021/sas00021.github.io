@@ -77,3 +77,13 @@ padding: 5px 5px;
   display: inline-block;
   vertical-align: top;
 }
+.images {
+height: 300px;
+background-color: #52796F;
+padding: 20px;
+}
+.text {
+height: 120px;
+background-color: #354F52;
+padding: 20px;
+}
