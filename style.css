@@ -2,6 +2,10 @@ body {
 background-color: Ivory;
 color: black;
 }
+header {
+background-color: Grey;
+float: center;
+}
 aside {
 float: right;
 }
