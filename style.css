@@ -15,14 +15,16 @@ height: 50px;
 vertical-align: middle;
 }
 section {
-height: 210px;
+height: 460px;
 background-color: #52796F;
 padding: 20px;
 }
 article {
-height: 210px;
+display: inline-block;
+height: 50px;
 background-color: #354F52;
 padding: 20px;
+margin: 10px;
 }
 aside {
 float: right;
@@ -36,6 +38,7 @@ background-color: #2F3E46;
 color: White;
 height: 100px;
 text-align: center;
+padding: 50px;
 }
 h1 {
 display: inline;
