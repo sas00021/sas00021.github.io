@@ -1,27 +1,27 @@
 body {
-background-color: Ivory;
-color: black;
+background-color: #2F3E46;
+max-width: 1080px;
+  margin: auto;
 }
 header {
 background-color: #354F52;
 color: White;
-height: 100px;
+height: 200px;
 text-align: center;
 }
 nav {
 background-color: #2F3E46;
 color: White;
 height: 50px;
-text-align: center;
+padding: 5px 60px;
 }
 section {
-height: 460px;
 background-color: #52796F;
 padding: 20px;
 }
 article {
-display: inline-block;
-height: 50px;
+height: 100px;
+width: 400px;
 background-color: #354F52;
 padding: 20px;
 margin: 10px;
@@ -31,24 +31,24 @@ float: right;
 display: inline-block;
 background-color: #CAD2C5;
 padding: 50px;
-height: 400px;
 }
 footer {
-background-color: #2F3E46;
+background-color: #354F52;
 color: White;
 height: 100px;
 text-align: center;
 padding: 50px;
 }
 h1 {
-display: inline;
-text-align: center;
-font-size: 35px;
-line-height: 100px;
-border: 2px solid #000000;
-border-radius: 25px;
+font-size: 50px;
+line-height: 50px;
 margin: 0;
-padding: 10px 20px;
+}
+h3 {
+font-size: 20px;
+text-align: left;
+line-height: 20px;
+margin: 0;
 }
 p {
 color: #CAD2C5;
@@ -57,12 +57,6 @@ font-size: 16px;
 ol {list-style-type: upper-latin;
 }
 ul {list-style-type: square;
-}
-.profile-image {
-width: 200px;
-height: 200px;
-border-style: dotted;
-border-width: 2px;
 }
 a {
 line-height: 50px;
@@ -89,4 +83,26 @@ padding: 20px;
 height: 120px;
 background-color: #354F52;
 padding: 20px;
+}
+.cvkuva {
+border-radius: 50%;
+width: 150px;
+float: right;
+padding: 30px 100px;
+}
+.header {
+float: left;
+padding: 60px;
+}
+.article {
+width: 300px;
+float: right;
+text-align: left;
+}
+h4 {
+display: inline;
+}
+.skills {
+padding: 10px 0px;
+line-height: 25px;
 }
