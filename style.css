@@ -28,7 +28,6 @@ margin: 10px;
 }
 aside {
 float: right;
-display: inline-block;
 background-color: #CAD2C5;
 padding: 50px;
 }
@@ -54,7 +53,9 @@ p {
 color: #CAD2C5;
 font-size: 16px; 
 }
-ol {list-style-type: upper-latin;
+ol {
+padding: 0px 10px;
+list-style-type: none;
 }
 ul {list-style-type: square;
 }
@@ -66,16 +67,13 @@ margin-left: 5px;
 padding: 5px 5px;
 }
 .image1 {
-  display: inline-block;
-  vertical-align: top;
+display: inline;
   margin: 16px;	
 }
 .image2 {
-  display: inline-block;
-  vertical-align: top;
+display: inline;
 }
 .images {
-height: 300px;
 background-color: #52796F;
 padding: 20px;
 }
