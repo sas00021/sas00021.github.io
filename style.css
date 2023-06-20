@@ -1,109 +1,68 @@
-body {
-background-color: #2F3E46;
-max-width: 1080px;
-  margin: auto;
+:root{
+	--background: #c3c0ba;
+	--white: #fff;
+	--one: #c3266f;
+	--two: #743578;
+	--black: #54585d;
+	--process: #a5a5a5;
 }
-header {
-background-color: #354F52;
-color: White;
-height: 200px;
-text-align: center;
+*{margin:0px; padding:0px; box-sizing: border-box; font-family: system-ui;}
+body{background: var(--background);}
+.col-div-3{width: 25%; float: left;}
+.col-div-7{width: 75%; float: left;}
+.col-div-4{width: 35%; float: left;}
+.col-div-8{width: 65%; float: left;}
+.col-div-6{width: 50%; float: left; position: relative;}
+.clearfix{clear: both;}
+.resume-main{width: 700px; height: 800px; 
+	background: linear-gradient(var(--one), var(--two));
+	margin: 50px auto;
+	box-shadow:5px 5px 5px 5px #54585d33;
 }
-nav {
-background-color: #2F3E46;
-color: White;
-height: 50px;
-padding: 5px 60px;
+.left-box{width: 35%; float: left; height: 700px;}
+.right-box{width: 65%; float: left; background-color: var(--white); height: 700px;
+	margin: 50px 0px; border-radius: 50px 0px 0px 50px; padding:30px 50px;
+	box-shadow: -7px 2px 15px 2px #54585d52;}
+.profile{width: 150px; height: 150px; border: 3px solid var(--white); 
+	padding: 7px; border-radius: 50%; margin: 20px auto;}
+.profile img{width: 100%; border-radius: 50%;}
+.content-box{    padding: 0px 40px 0px 45px;}
+.content-box h2{text-transform: uppercase;font-weight: 500;color: var(--white); 
+	letter-spacing: 1px; font-size: 20px;}
+.hr1{border: none; height: 1px; background: var(--white); margin-top: 3px;}
+.p1{font-size: 11px;color: var(--white);letter-spacing: 1px;padding-top: 12px;}
+#progress {background: var(--process);border-radius: 13px;height: 8px;width: 100%;}
+#progress:after {
+    content: '';
+    display: block;
+    background: var(--white);
+    width: 50%;
+    height: 100%;
+    border-radius: 9px;
 }
-section {
-background-color: #52796F;
-padding: 20px;
+#progress1 {background: var(--process);border-radius: 13px;height: 8px;width: 100%;}
+#progress1:after {
+    content: '';
+    display: block;
+    background: var(--white);
+    width: 40%;
+    height: 100%;
+    border-radius: 9px;
 }
-article {
-height: 100px;
-width: 400px;
-background-color: #354F52;
-padding: 20px;
-margin: 10px;
+.content-box h3{font-size: 13px;text-transform: uppercase;letter-spacing: 1px;padding-top: 10px;
+    color: white;font-weight: 500;
 }
-aside {
-float: right;
-background-color: #CAD2C5;
-padding: 50px;
-}
-footer {
-background-color: #354F52;
-color: White;
-height: 100px;
-text-align: center;
-padding: 50px;
-}
-h1 {
-font-size: 50px;
-line-height: 50px;
-margin: 0;
-}
-h3 {
-font-size: 20px;
-text-align: left;
-line-height: 20px;
-margin: 0;
-}
-p {
-color: #CAD2C5;
-font-size: 16px; 
-}
-ol {
-padding: 0px 10px;
-list-style-type: none;
-}
-ul {list-style-type: square;
-}
-a {
-line-height: 50px;
-color: #FFFFFF;
-border: 2px solid #FFFFFF;
-margin-left: 5px;
-padding: 5px 5px;
-}
-.row {
-display: flex;
-flex-wrap: wrap;
-padding: 10px;
-}
-.column {
-  flex: 50%;
-  padding: 0 4px;
-}
-.column img {
-  width: 300px;
-  margin-top: 8px;
-  vertical-align: middle;
-}
-.text {
-width: 600px;
-background-color: #354F52;
-padding: 20px;
-}
-.cvkuva {
-border-radius: 50%;
-width: 150px;
-float: right;
-padding: 30px 100px;
-}
-.header {
-float: left;
-padding: 60px;
-}
-.article {
-width: 300px;
-float: right;
-text-align: left;
-}
-h4 {
-display: inline;
-}
-.skills {
-padding: 10px 0px;
-line-height: 25px;
-}
+.p2{font-size: 13px; margin-bottom: 5px; margin-top: 5px; color: var(--white);}
+.circle{color:var(--white); font-size: 14px!important; margin-top: 7px;}
+.circle1{color:var(--process); font-size: 14px!important; margin-top: 7px;}
+.in{background:var(--white);color: var(--one);padding: 8px;border-radius: 20px; font-size: 14px!important;}
+.inp{color: var(--white); font-size: 11px;}
+.col3{text-align: center;}
+h1{font-size: 50px; text-transform: uppercase; color: var(--black); line-height: 50px;}
+h1 span{color: var(--one);}
+.p3{letter-spacing: 4px;color: #54585d; font-weight: 500;}
+.heading{text-transform: uppercase;font-weight: 500;color: var(--one); 
+	letter-spacing: 1px; font-size: 20px;}
+.hr2{border: none; height: 1px; background: var(--black); margin-top: 3px;}
+.p5{font-weight: 700;color: var(--black);}
+.span1{font-size: 12px;color: var(--black);}
